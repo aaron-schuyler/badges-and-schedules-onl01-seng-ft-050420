@@ -1,3 +1,3 @@
-def batch_badge_creator
+def batch_badge_creator(names)
   
 end
