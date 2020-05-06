@@ -6,6 +6,10 @@ def batch_badge_creator(names)
   return arr
 end
 
+def badge_maker(name)
+  "Hello, my name is #{name}."
+end
+
 def assign_rooms(names)
   arr = []
   room = 1
