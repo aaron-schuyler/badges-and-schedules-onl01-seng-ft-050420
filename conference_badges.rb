@@ -9,13 +9,11 @@ def badge_maker(name)
 end
 
 def assign_rooms(names)
-  arr = []
   room = 1
-  names.each do |name|
+  names.collect do |name|
     arr.push("Hello, #{name}! You'll be assigned to room #{room}!")
     room+=1
   end
-  return arr
 end
 
 def printer(names)
